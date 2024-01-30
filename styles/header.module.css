@@ -1,0 +1,44 @@
+.container {
+	padding: 0 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+	height: 100px;
+	background-color: rgba(10, 25, 47, 0.85) ;
+	font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+}
+
+.container{
+	font-size: 13px;
+	line-height: 17px;	
+}
+
+.container a {
+	padding: 10px;
+	margin: 0 5px;
+
+}
+
+.counter {
+	color: #64ffda;
+	margin-right: 5px;
+}
+
+.title {
+	color: rgb(204, 214, 246)
+}
+
+.resumeWrapper {
+	padding: 10px 12px;
+	border: #64ffda 1px solid;
+	color: #64ffda;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+
+
