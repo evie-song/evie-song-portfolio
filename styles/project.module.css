@@ -100,4 +100,33 @@
 	overflow: hidden;
 	position: relative;
 	max-height: 350px;
+	height: 350px;
+	width: 560px;
+}
+
+.projectImg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+
+	object-fit: cover;
+}
+
+.projectImg video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+
+.projectImg:hover video{
+	display: block;
+}
+
+.projectImg:hover img {
+	display: none;
 }

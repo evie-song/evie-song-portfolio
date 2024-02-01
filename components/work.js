@@ -6,7 +6,7 @@ const Work = () => {
 
 
   return (
-    <div className="section work">
+    <div className="section work" id="work">
       <div className="numbered-heading">
         <span className="number">03.</span>
         <span className="title">Where I've worked (before coding)</span>

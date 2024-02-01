@@ -1,25 +1,44 @@
 import styles from "../styles/header.module.css";
+import { useState, useEffect } from "react";
 
 const Header = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+	useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = typeof window !== 'undefined' ? window.pageYOffset : 0;
+      setVisible(prevScrollPos > currentScrollPos);
+      setPrevScrollPos(currentScrollPos);
+    };
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
+  }, [prevScrollPos]);
+
   return (
-    <div className={`${styles.container} justify-content-between`}>
-      <div className={styles.logoContainer}>
+    <div className={`${styles.container} justify-content-between ${visible? styles.show : styles.hide}`}>
+      <div className={`${styles.logoContainer} hover-transform`}>
 				<img src="img/logo.png"></img>
 			</div>
       <div className="d-flex flex-grow-1 justify-content-end align-items-center">
-          <a>
+          <a href="#about">
             <span className={styles.counter}>01.</span>
             <span className={styles.title}>About</span>
           </a>
-          <a>
+          <a href="#projects">
             <span className={styles.counter}>02.</span>
-            <span className={styles.title}>Experience</span>
+            <span className={styles.title}>Projects</span>
           </a>
-          <a>
+          <a href="#work">
             <span className={styles.counter}>03.</span>
             <span className={styles.title}>Work</span>
           </a>
-          <a>
+          <a href="#contact">
             <span className={styles.counter}>04.</span>
             <span className={styles.title}>Contact</span>
           </a>

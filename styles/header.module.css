@@ -11,6 +11,7 @@
 	height: 100px;
 	background-color: rgba(10, 25, 47, 0.95) ;
 	font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+	transition: transform 0.3s ease;
 }
 
 .container{
@@ -21,7 +22,7 @@
 .container a {
 	padding: 10px;
 	margin: 0 5px;
-
+	cursor: pointer;
 }
 
 .counter {
@@ -31,6 +32,10 @@
 
 .title {
 	color: rgb(204, 214, 246)
+}
+
+.container a:hover .title {
+	color: var(--green);
 }
 
 .resumeWrapper {
@@ -49,6 +54,14 @@
 .sticker {
 	width: 50px;
 	height: 50px;
+}
+
+.hide {
+  transform: translateY(-100%);
+}
+
+.show {
+  transform: translateY(0);
 }
 
 

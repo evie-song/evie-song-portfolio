@@ -18,13 +18,18 @@
   padding: 0px 20px 2px;
   border-left: 2px solid var(--lightest-navy);
   background-color: transparent;
-  color: var(--green);
+
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
   text-align: left;
   white-space: nowrap;
   cursor: pointer;
 	height: 40px;
+}
+
+.company:hover {
+	color: var(--green);
+	background-color: var(--lightest-navy);
 }
 
 .descList {

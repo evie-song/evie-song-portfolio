@@ -7,7 +7,7 @@ const Intro = () => {
 			<div className={styles.bigHeading}><h2>Evie Song.</h2></div>
 			<div className={styles.bigHeading}><h3>I am a web developer.</h3></div>
 			<div className={styles.content}><p>I spent the past couple years self teaching full stack development by making clones of websites. Currently I am looking for me first developer position.</p></div>
-			<div className={`${styles.resume} resume-link`}><a>Check out my resume!</a></div>
+			<a href="Evie+Song+Resume.pdf" target="_blank"><div className={`${styles.resume} resume-link`}>Check out my resume!</div></a>
 		</div>
 	)
 }

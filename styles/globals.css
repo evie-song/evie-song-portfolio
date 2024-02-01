@@ -164,3 +164,38 @@ ul.skill-list li::before {
   flex-direction: column;
   align-items: center;
 }
+
+a:hover {
+	color: var(--green);
+}
+
+.hover-transform {
+  transition: transform 0.3s ease;
+}
+
+.hover-transform:hover {
+  transform: translateY(-3px); 
+}
+
+.text-highlight {
+  color: var(--green);
+  transition: transform 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+/* .text-highlight::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 1px;
+  position: relative;
+  bottom: 0.37em;
+  background-color: var(--green);
+  opacity: 0.5;
+  transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.text-highlight:hover::after {
+  width: 100%;
+} */

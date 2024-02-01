@@ -50,3 +50,7 @@
     margin: 0px auto;
 		background-color: #a8b2d1;
 }
+
+.right a {
+	letter-spacing: 3px;
+}

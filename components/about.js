@@ -2,7 +2,7 @@ import styles from "../styles/about.module.css";
 
 const About = () => {
   return (
-    <div className="section">
+    <div className="section" id="about">
       <div className="numbered-heading">
         <span className="number">01.</span>
         <span className="title">About Me </span>
@@ -17,7 +17,7 @@ const About = () => {
             supply chain role and being encouraged by other passionate coders.
             Over the past two years, I have been self-teaching full stack web
             development and practicing by making clones of various websites,
-            including Airbnb, Trello and Reddit.
+            including <span className="text-highlight">Airbnb</span>, <span className="text-highlight">Trello</span > and <span className="text-highlight">Reddit</span>.
           </p>
           <p>
             Before making a career change, I was in supply chain related roles
