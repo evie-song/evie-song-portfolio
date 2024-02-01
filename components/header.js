@@ -3,7 +3,9 @@ import styles from "../styles/header.module.css";
 const Header = () => {
   return (
     <div className={`${styles.container} justify-content-between`}>
-      <div className="text-primary">Logo</div>
+      <div className={styles.logoContainer}>
+				<img src="img/logo.png"></img>
+			</div>
       <div className="d-flex flex-grow-1 justify-content-end align-items-center">
           <a>
             <span className={styles.counter}>01.</span>
@@ -21,9 +23,9 @@ const Header = () => {
             <span className={styles.counter}>04.</span>
             <span className={styles.title}>Contact</span>
           </a>
-				<div className={styles.resumeWrapper}>
+				<a className={styles.resumeWrapper} href="Evie+Song+Resume.pdf" target="_blank">
 					<span className={styles.resumeTitle}>Resume</span>
-				</div>
+				</a>
       </div>
       <div></div>
     </div>

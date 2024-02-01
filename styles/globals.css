@@ -151,3 +151,16 @@ ul.skill-list li::before {
   font-size: var(--fz-sm);
   line-height: 12px;
 }
+
+.section.work {
+  padding-left: 60px;
+}
+
+.section.contact {
+  max-width: 600px;
+  margin: 0px auto 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

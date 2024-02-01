@@ -46,7 +46,11 @@ const About = () => {
 						<li>Next.js</li>
           </ul>
         </div>
-        <div></div>
+        <div>
+					<div className={styles.selfie}>
+						<img src="img/selfie.png"></img>
+					</div>
+				</div>
       </div>
     </div>
   );
