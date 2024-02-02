@@ -1,6 +1,9 @@
+import { useRef } from "react";
 import styles from "../styles/project.module.css";
+import VideoPlayer from "./video-player";
 
 const Project = () => {
+  
   return (
     <div className="section" id="projects">
       <div className="numbered-heading">
@@ -9,9 +12,10 @@ const Project = () => {
         <div className="line-break"></div>
       </div>
       <div className={styles.projectContainer}>
-        <div className={styles.projectImg}>
-          <img src="img/trello_1.png"></img>
-					<video src="video/test.mov" loop muted autoPlay></video>
+        <div className={styles.imgContainer}>
+          <div className={styles.projectImg}>
+						<VideoPlayer src="video/trello_clone_demo.mov"/>
+          </div>
         </div>
         <div className={`${styles.projectContent} ${styles.alignRight}`}>
           <div className={styles.projectType}>Clone Project</div>
@@ -127,19 +131,20 @@ const Project = () => {
           </div>
         </div>
         <div className={styles.projectImg}>
-          <img src="img/airbnb_1.png"></img>
-        </div>
+						<VideoPlayer src="video/airbnb_clone_demo2.mov"/>
+          </div>
       </div>
-			<div className={styles.projectContainer}>
-        <div className={styles.projectImg}>
-          <img src="img/trello_1.png"></img>
-        </div>
+      <div className={styles.projectContainer}>
+			<div className={styles.projectImg}>
+						<VideoPlayer src="video/trello_clone_demo.mov"/>
+          </div>
         <div className={`${styles.projectContent} ${styles.alignRight}`}>
           <div className={styles.projectType}>Clone Project</div>
           <div className={styles.projectTitle}>Reddit Clone</div>
           <div className={` ${styles.projectDesc} ${styles.textAlignRight}`}>
             <span>
-              This clone app features user registration, community and post creation, upvotes/downvotes, SPA + API architecture.
+              This clone app features user registration, community and post
+              creation, upvotes/downvotes, SPA + API architecture.
             </span>
           </div>
           <div className={styles.projectTech}>
@@ -151,7 +156,10 @@ const Project = () => {
             </ul>
           </div>
           <div className={styles.projectLink}>
-            <a href="https://github.com/evie-song/reddit_clone_frontend" target="_blank">
+            <a
+              href="https://github.com/evie-song/reddit_clone_frontend"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -167,7 +175,10 @@ const Project = () => {
                 <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
               </svg>
             </a>
-            <a href="https://github.com/evie-song/reddit_clone_frontend" target="_blank">
+            <a
+              href="https://github.com/evie-song/reddit_clone_frontend"
+              target="_blank"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 role="img"
@@ -188,7 +199,6 @@ const Project = () => {
           </div>
         </div>
       </div>
-
     </div>
   );
 };
