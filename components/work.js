@@ -9,7 +9,7 @@ const Work = () => {
     <div className="section work" id="work">
       <div className="numbered-heading">
         <span className="number">03.</span>
-        <span className="title">Where I've worked (before coding)</span>
+        <span className="title">Where I&apos;ve worked (before coding)</span>
         <div className="line-break"></div>
       </div>
       <div className={styles.body}>
