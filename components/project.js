@@ -136,7 +136,7 @@ const Project = () => {
       </div>
       <div className={styles.projectContainer}>
 			<div className={styles.projectImg}>
-						<VideoPlayer src="video/trello_clone_demo.mov"/>
+						<VideoPlayer src="video/reddit_clone_demo.mov"/>
           </div>
         <div className={`${styles.projectContent} ${styles.alignRight}`}>
           <div className={styles.projectType}>Clone Project</div>
