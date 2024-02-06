@@ -3,7 +3,7 @@
 	justify-content: space-between;
 	width: 100%;
 	margin-bottom: 150px;
-	align-items: end;
+	align-items: flex-end;
 }
 
 .projectImg {
@@ -23,7 +23,7 @@
 }
 
 .alignRight {
-	align-items: end;
+	align-items: flex-end;
 }
 
 .projectType {
