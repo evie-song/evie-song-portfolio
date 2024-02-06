@@ -2,7 +2,8 @@
 const nextConfig = {
   basePath: "/evie-song-portfolio",
   output: "export",
-  reactStrictMode: true,
+  // reactStrictMode: true,
+  images: { unoptomized: true}
 };
 
 export default nextConfig;

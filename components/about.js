@@ -1,4 +1,5 @@
 import styles from "../styles/about.module.css";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -48,7 +49,7 @@ const About = () => {
         </div>
         <div>
 					<div className={styles.selfie}>
-						<img src="img/selfie.png"></img>
+						<Image src="img/selfie.png"></Image>
 					</div>
 				</div>
       </div>
