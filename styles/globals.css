@@ -73,8 +73,29 @@ body {
   line-height: 1.4;
 }
 
+@media screen and (max-width: 480px){
 .main-container {
-  padding: 0 100px;
+    padding: 0px 25px;
+}}
+
+
+@media (min-width: 481px) and (max-width: 768px){
+.main-container {
+    padding: 0px 50px;
+}}
+
+@media (min-width: 769px) and (max-width: 1080px){
+.main-container {
+    padding: 0px 100px;
+}}
+
+@media (min-width: 1081px) {
+.main-container {
+  padding: 0 150px;
+}}
+
+.main-container {
+  overflow: scroll;
 }
 
 .resume-link {
@@ -91,7 +112,7 @@ body {
 }
 
 .section {
-  margin: 0px auto;
+  /* margin: 0px auto; */
   padding: 100px 0px;
 }
 
@@ -153,7 +174,7 @@ ul.skill-list li::before {
 }
 
 .section.work {
-  padding-left: 60px;
+  /* padding-left: 60px; */
 }
 
 .section.contact {

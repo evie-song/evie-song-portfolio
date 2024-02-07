@@ -3,7 +3,6 @@ import styles from "../styles/project.module.css";
 import VideoPlayer from "./video-player";
 
 const Project = () => {
-  
   return (
     <div className="section" id="projects">
       <div className="numbered-heading">
@@ -11,12 +10,12 @@ const Project = () => {
         <span className="title">Some Projects I&apos;ve Built </span>
         <div className="line-break"></div>
       </div>
-      <div className={styles.projectContainer}>
-        <div className={styles.imgContainer}>
+      <div className={styles.projectContainer} id="trello">
+        {/* <div className={styles.imgContainer}> */}
           <div className={styles.projectImg}>
-						<VideoPlayer src="video/trello_clone_demo.mov"/>
+            <VideoPlayer src="video/trello_clone_demo.mov" />
           </div>
-        </div>
+        {/* </div> */}
         <div className={`${styles.projectContent} ${styles.alignRight}`}>
           <div className={styles.projectType}>Clone Project</div>
           <div className={styles.projectTitle}>Trello Clone</div>
@@ -74,7 +73,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className={styles.projectContainer}>
+      <div className={styles.projectContainer} id="airbnb">
         <div className={`${styles.projectContent} `}>
           <div className={styles.projectType}>Clone Project</div>
           <div className={styles.projectTitle}>Airbnb Clone</div>
@@ -131,13 +130,15 @@ const Project = () => {
           </div>
         </div>
         <div className={styles.projectImg}>
-						<VideoPlayer src="video/airbnb_clone_demo2.mov"/>
-          </div>
+          <VideoPlayer src="video/airbnb_clone_demo2.mov" />
+        </div>
       </div>
-      <div className={styles.projectContainer}>
-			<div className={styles.projectImg}>
-						<VideoPlayer src="video/reddit_clone_demo.mov"/>
-          </div>
+
+
+      <div className={styles.projectContainer} id="reddit">
+        <div className={styles.projectImg}>
+          <VideoPlayer src="video/reddit_clone_demo.mov" />
+        </div>
         <div className={`${styles.projectContent} ${styles.alignRight}`}>
           <div className={styles.projectType}>Clone Project</div>
           <div className={styles.projectTitle}>Reddit Clone</div>

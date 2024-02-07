@@ -1,22 +1,50 @@
-.body {
-  display: flex;
+@media (max-width: 600px) {
+	.body {
+		flex-direction: column;	
+	}
+
+	.companyList {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.companySelected {
+		border-top: 2px solid var(--green) !important;
+	}
+
+	.company {
+		border-top: 2px solid var(--lightest-navy);
+	}
 }
 
-.companyList {
-  display: flex;
-  flex-direction: column;
+
+
+
+@media (min-width: 601px) {
+	.body {
+		display: flex;
+	}
+	
+	.companyList {
+		display: flex;
+		flex-direction: column;
+	}
+	.companySelected {
+		border-left: 2px solid var(--green) !important;
+	}
+
+	.company {
+		border-left: 2px solid var(--lightest-navy);
+	}
 }
 
-.companySelected {
-	border-left: 2px solid var(--green) !important;
-}
+
 
 .company {
   position: relative;
   display: flex;
   align-items: center;
   padding: 0px 20px 2px;
-  border-left: 2px solid var(--lightest-navy);
   background-color: transparent;
 
   font-family: var(--font-mono);

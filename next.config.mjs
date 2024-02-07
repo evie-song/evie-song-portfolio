@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/evie-song-portfolio",
-  output: "export",
+  // output: "export",
   // reactStrictMode: true,
   images: { unoptimized: true}
 };

@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <div className={`${styles.container} justify-content-between ${visible? styles.show : styles.hide}`}>
       <div className={`${styles.logoContainer} hover-transform`}>
-				<Image src="img/logo.png"></Image>
+				<Image alt="Logo" width="50" height="50" src="img/logo.png"></Image>
 			</div>
       <div className="d-flex flex-grow-1 justify-content-end align-items-center">
           <a href="#about">

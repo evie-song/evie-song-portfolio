@@ -18,7 +18,7 @@ const About = () => {
             supply chain role and being encouraged by other passionate coders.
             Over the past two years, I have been self-teaching full stack web
             development and practicing by making clones of various websites,
-            including <span className="text-highlight">Airbnb</span>, <span className="text-highlight">Trello</span > and <span className="text-highlight">Reddit</span>.
+            including <a href="#airbnb"><span className="text-highlight">Airbnb</span></a>, <a href="#trello"><span className="text-highlight">Trello</span ></a> and <a href="#reddit"><span className="text-highlight">Reddit</span></a>.
           </p>
           <p>
             Before making a career change, I was in supply chain related roles
@@ -29,7 +29,7 @@ const About = () => {
             what initially sparked my interest in learning software development.
           </p>
           <p>
-            In my spare time, i love travelling, disc-golfing, cooking, spending
+            In my spare time, I love travelling, disc-golfing, cooking, spending
             time with my baby (oh yes, I also had a newborn last year and self
             taught being a mom!) and cuddling with my kitties.
           </p>
@@ -49,7 +49,7 @@ const About = () => {
         </div>
         <div>
 					<div className={styles.selfie}>
-						<Image src="img/selfie.png"></Image>
+						<Image width="300" height="225" src="img/selfie.png"></Image>
 					</div>
 				</div>
       </div>

@@ -19,7 +19,7 @@ const Work = () => {
           <div onClick={() => setSectionSelected("pinduoduo")} className={`${styles.company} ${sectionSelected == "pinduoduo"? styles.companySelected : ""}`}>Pinduoduo Inc.</div>
         </div>
 
-        <div style={{height:"500px"}}>
+        <div style={{minHeight:"500px"}}>
           <div className={` ${styles.descList} ${sectionSelected == "hidrate"? styles.showDesc: styles.hideDesc}`}>
             <div className={styles.DescContainer}>
               <div className={styles.title}>

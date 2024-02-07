@@ -1,8 +1,28 @@
+
 .body {
 	display: grid;
 	grid-template-columns: 3fr 2fr;
 	gap: 50px;
 }
+
+
+@media (max-width: 1080px) {
+	.body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.selfie {
+		
+	}
+}
+
+
+.selfie {
+	justify-self: center;
+}
+
 
 .body p {
 	margin: 0px 0px 15px;
