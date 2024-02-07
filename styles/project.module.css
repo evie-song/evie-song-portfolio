@@ -2,6 +2,39 @@
   .projectContainer {
     flex-direction: column;
   }
+
+	.projectImg {
+		display: none;
+	}
+
+	.imgTrello, 
+	.imgAirbnb,
+	.imgReddit {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-position: center;
+		filter: brightness(10%); 
+	}
+
+	.imgTrello {
+		background-image: url('../public/img/trello_1.png');
+	}
+
+	.imgAirbnb {
+		background-image: url('../public/img/airbnb_1.png');
+	}
+
+	.imgReddit {
+		background-image: url('../public/img/reddit_1.png');
+	}
+
+	.contentBody {
+		padding: 20px 20px 10px;
+	}
 }
 
 @media (min-width: 851px) {
@@ -16,7 +49,17 @@
 	.projectDesc {
 		width: 120%;
 	}
+
+	.img {
+		display: none;
+	}
 }
+
+
+.contentBody {
+	z-index: 2;
+}
+
 
 .projectContainer {
   display: flex;
@@ -38,6 +81,7 @@
 .projectContent {
   display: flex;
   flex-direction: column;
+	position: relative;
 }
 
 .alignRight {
