@@ -1,3 +1,35 @@
+@media (max-width: 700px) {
+	.logoContainer {
+		display: none;
+	}
+
+	.resumeWrapper {
+		display: none;
+	}
+
+	.nav	{
+		justify-content: space-evenly;
+	}
+
+}
+
+@media (min-width: 701px) {
+	.logoContainer {
+		display: unset;
+	}
+
+	.resumeWrapper {
+		display: unset;
+	}
+
+	.nav	{
+		justify-content: flex-end;
+	}
+
+}
+
+
+
 .container {
 	padding: 0 40px;
 	display: flex;
@@ -9,7 +41,8 @@
 	width: 100%;
 	z-index: 10;
 	height: 100px;
-	background-color: rgba(10, 25, 47, 0.95) ;
+	/* background-color: rgba(10, 25, 47, 0.95) ; */
+	background-color: #112240;
 	font-family: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
 	transition: transform 0.3s ease;
 }
@@ -26,7 +59,7 @@
 }
 
 .counter {
-	color: #64ffda;
+	color: #F4F27E;
 	margin-right: 5px;
 }
 
@@ -40,8 +73,8 @@
 
 .resumeWrapper {
 	padding: 10px 12px;
-	border: #64ffda 1px solid;
-	color: #64ffda;
+	border: #F4F27E 1px solid;
+	color: #F4F27E;
 	border-radius: 4px;
 	margin: 0 5px;
 }

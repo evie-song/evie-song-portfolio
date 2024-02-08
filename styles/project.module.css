@@ -34,6 +34,7 @@
 
 	.contentBody {
 		padding: 20px 20px 10px;
+
 	}
 }
 
@@ -46,12 +47,19 @@
     width: 40%;
   }
 
-	.projectDesc {
-		width: 120%;
-	}
-
 	.img {
 		display: none;
+	}
+
+
+	.alignRight .contentBody {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	.projectDesc {
+		width: 120%;
 	}
 }
 
@@ -131,7 +139,7 @@
 
 .projectTechList li {
   margin: 0px 0px 5px 20px;
-  color: var(--light-slate);
+  color: #788aaa;
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
   white-space: nowrap;

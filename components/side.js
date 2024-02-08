@@ -41,7 +41,7 @@ const Side = () => {
         </a>
       </div>
       <div className={`${styles.container} ${styles.right} `}>
-        <a href="#" className="hover-transform">evie.delannoy@gmail.com</a>
+        <a href="mailto:evie.delannoy@gmail.com" className="hover-transform">evie.delannoy@gmail.com</a>
       </div>
     </div>
   );

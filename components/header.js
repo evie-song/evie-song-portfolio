@@ -26,7 +26,7 @@ const Header = () => {
       <div className={`${styles.logoContainer} hover-transform`}>
 				<Image alt="Logo" width="50" height="50" src="img/logo.png"></Image>
 			</div>
-      <div className="d-flex flex-grow-1 justify-content-end align-items-center">
+      <div className={`${styles.nav} d-flex flex-grow-1 align-items-center`}>
           <a href="#about">
             <span className={styles.counter}>01.</span>
             <span className={styles.title}>About</span>
