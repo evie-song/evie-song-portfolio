@@ -30,11 +30,11 @@
 		flex-direction: column;
 	}
 	.companySelected {
-		border-left: 2px solid var(--green) !important;
+		border-left: 1px solid var(--green) !important;
 	}
 
 	.company {
-		border-left: 2px solid var(--lightest-navy);
+		border-left: 1px solid var(--lightest-navy);
 	}
 }
 
