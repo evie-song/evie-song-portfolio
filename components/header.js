@@ -43,7 +43,7 @@ const Header = () => {
             <span className={styles.counter}>04.</span>
             <span className={styles.title}>Contact</span>
           </a>
-				<a className={styles.resumeWrapper} href="Evie+Song+Resume.pdf" target="_blank">
+				<a className={styles.resumeWrapper} href="EvieSongResume_2.pdf" target="_blank">
 					<span className={styles.resumeTitle}>Resume</span>
 				</a>
       </div>

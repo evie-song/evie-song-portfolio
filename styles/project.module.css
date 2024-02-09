@@ -17,7 +17,7 @@
 		height: 100%;
 		background-size: cover;
 		background-position: center;
-		filter: brightness(10%); 
+		filter: brightness(18%); 
 	}
 
 	.imgTrello {
@@ -35,6 +35,14 @@
 	.contentBody {
 		padding: 20px 20px 10px;
 
+	}
+
+	.projectType {
+		color: #F4F27E;
+	}
+
+	.projectTitle {
+		color: var(--light-slate);
 	}
 }
 
@@ -60,6 +68,14 @@
 
 	.projectDesc {
 		width: 120%;
+	}
+
+	.projectType {
+		color: var(--green);
+	}
+
+	.projectTitle {
+		color: var(--lightest-slate);
 	}
 }
 
@@ -98,14 +114,14 @@
 
 .projectType {
   margin: 10px 0px;
-  color: var(--green);
+  /* color: var(--green); */
   font-family: var(--font-mono);
   font-size: var(--fz-xs);
   font-weight: 400;
 }
 
 .projectTitle {
-  color: var(--lightest-slate);
+  
   font-size: clamp(20px, 5vw, 24px);
   font-weight: 600;
   line-height: 1.1;

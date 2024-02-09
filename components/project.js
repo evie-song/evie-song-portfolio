@@ -89,7 +89,7 @@ const Project = () => {
             <div className={styles.projectTitle}>Airbnb Clone</div>
             <div className={` ${styles.projectDesc}`}>
               <span>
-                This clone app is implemented host and guest functionality,
+                This clone app implements host and guest functionality,
                 listing and booking management features, host communication/chat
                 with sockets, google maps integration.
               </span>
@@ -164,7 +164,7 @@ const Project = () => {
             <div className={` ${styles.projectDesc} ${styles.textAlignRight}`}>
               <span>
                 This clone app features user registration, community and post
-                creation, upvotes/downvotes, SPA + API architecture.
+                creation, upvotes/downvotes, engagement based algorithms sortings and SPA + API architecture.
               </span>
             </div>
             <div className={styles.projectTech}>

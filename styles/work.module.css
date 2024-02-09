@@ -55,7 +55,7 @@
 }
 
 .company:hover {
-	color: var(--green);
+	color: #F4F27E;
 	background-color: var(--lightest-navy);
 }
 
