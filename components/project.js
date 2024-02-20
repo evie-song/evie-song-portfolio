@@ -123,7 +123,7 @@ const Project = () => {
                 </svg>
               </a>
               <a
-                href="https://github.com/evie-song/airbnb_clone"
+                href="https://evie-airbnb-clone.onrender.com/"
                 target="_blank"
               >
                 <svg
