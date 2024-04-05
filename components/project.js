@@ -153,7 +153,7 @@ const Project = () => {
 
       <div className={styles.projectContainer} id="reddit">
         <div className={styles.projectImg}>
-          <VideoPlayer src="video/reddit_clone_demo_2.mov" />
+          <VideoPlayer src="video/reddit_clone_demo_3.mov" />
         </div>
         <div className={`${styles.projectContent} ${styles.alignRight}`}>
           
@@ -163,7 +163,7 @@ const Project = () => {
             <div className={styles.projectTitle}>Reddit Clone</div>
             <div className={` ${styles.projectDesc} ${styles.textAlignRight}`}>
               <span>
-                This clone app features user registration, post
+                This clone app features user registration, post & comment
                 creation, upvotes/downvotes, dark mode, infinite scroll, engagement based algorithms sortings and SPA + API architecture.
               </span>
             </div>
