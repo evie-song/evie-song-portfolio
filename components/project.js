@@ -153,7 +153,7 @@ const Project = () => {
 
       <div className={styles.projectContainer} id="reddit">
         <div className={styles.projectImg}>
-          <VideoPlayer src="video/reddit_clone_demo_3.mov" />
+          <VideoPlayer src="video/reddit_clone_demo_4.mov" />
         </div>
         <div className={`${styles.projectContent} ${styles.alignRight}`}>
           
