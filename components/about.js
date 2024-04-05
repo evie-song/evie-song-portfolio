@@ -42,9 +42,9 @@ const About = () => {
 						<li>Ruby on Rails</li>
             <li>jQuery</li>
             <li>C# (.NET)</li>
-						<li>React</li>
+						<li>React/Next.js</li>
 						<li>PostgreSQL</li>
-						<li>Next.js</li>
+						<li>HTML/CSS</li>
           </ul>
         </div>
         <div>
